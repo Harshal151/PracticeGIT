@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+    z-index: 1;
+}
+
+span{
+    height: 50px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    transition: 0.5s;
+}
+
+#btn:hover span{
+    width: 100%;
+}
+
+#btn:hover a{
+    color: white;
+}
