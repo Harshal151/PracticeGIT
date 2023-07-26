@@ -10,8 +10,9 @@ body{
 #btn{
     height: 50px;
     width: 150px;
-    background-color: white;
+    background-color: rgb(241, 214, 164);
     position: relative;
+    border: 0;
 }
 
 a{
@@ -29,7 +30,7 @@ span{
     position: absolute;
     left: 0;
     top: 0;
-    background-color: black;
+    background-color: orange;
     transition: 0.5s;
 }
 
@@ -38,5 +39,5 @@ span{
 }
 
 #btn:hover a{
-    color: white;
+    color: black;
 }
